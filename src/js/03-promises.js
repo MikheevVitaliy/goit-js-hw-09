@@ -18,6 +18,7 @@ function onSubmitClick(e) {
     createPromise(position, delayNumber);
     delayNumber += stepNumber;
   }
+  e.target.reset();
 }
 
 function createPromise(position, delay) {
